@@ -11,19 +11,31 @@ This project implements and compares Recurrent Neural Network (RNN) and Long Sho
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Dataset](#dataset)
-3. [Data Preprocessing](#data-preprocessing)
-4. [Model Development](#model-development)
-5. [Results](#results)
-6. [Comparative Analysis](#comparative-analysis)
-7. [Error Analysis](#error-analysis)
-8. [Installation & Usage](#installation--usage)
-9. [Project Structure](#project-structure)
+2. [Reproducibility](#reproducibility)
+3. [Dataset](#dataset)
+4. [Data Preprocessing](#data-preprocessing)
+5. [Model Development](#model-development)
+6. [Results](#results)
+7. [Comparative Analysis](#comparative-analysis)
+8. [Error Analysis](#error-analysis)
+9. [Installation & Usage](#installation--usage)
+10. [Project Structure](#project-structure)
 
 ## Introduction
 
 ### Project Goal
 The aim of this project is to forecast Hong Kong's daily minimum grass temperature using deep learning sequential models. The project compares the performance of simple RNNs versus advanced LSTM architectures in capturing complex temporal patterns in meteorological data.
+
+### Reproducibility
+This project consists of 3 main colab notebooks:
+- DIT5411_Machine_Learning_Data_PreprocessingGroup_Project.ipynb
+- DIT5411_Machine_Learning_Group_Project_RNN.ipynb
+- DIT5411_Machine_Learning_LTSM_Group_Project.ipynb
+
+1. Run the Data_Preprocessing notebook first.
+This generates the cleaned train.csv and test.csv datasets required for model training.
+2. If using Google Colab, upload the generated train.csv and test.csv files into your Colab workspace (the notebook’s working directory) before running the RNN or LSTM notebooks.
+3. Next, run the RNN notebook or the LSTM notebook to train and evaluate the respective models.
 
 ### Importance of Grass Minimum Temperature
 Grass minimum temperature is a critical meteorological indicator that:
