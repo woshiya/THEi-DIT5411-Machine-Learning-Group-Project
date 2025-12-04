@@ -15,7 +15,6 @@ This project implements and compares Recurrent Neural Network (RNN) and Long Sho
 3. [Data Preprocessing](#data-preprocessing)
 4. [Hyperparameter Search](#hyperparameter-search)
 5. [Installation & Setup](#installation--setup)
-6. [Reproducibility](#reproducibility)
 
 ## Introduction
 
